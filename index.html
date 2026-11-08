@@ -1,0 +1,1015 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Chaitanya | Admissions Open</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- COLLEGE LOGO -->
+
+<header class="header">
+  <div class="college-brand">
+  <img src="logo.png" alt="Sri Chaitanya Logo">
+  <span>Sri Chaitanya Junior College</span>
+
+</div>
+  <a href="#home" class="brand">
+
+  </a>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#fees">Fee Structure</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#admission" class="nav-apply">Apply Now</a>
+    <a href="#callback">Parent Enquiry</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#education-loan">Education Loan</a>
+  <a href="#Announcementa">Announcements</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="tag">ADMISSIONS OPEN 2027–28</span>
+    <h1>Build Your Future.<br>
+      <span>Achieve Excellence.</span>
+    </h1>
+    <p>
+      A journey towards academic excellence, strong foundations
+      and successful careers starts here.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#admission" class="btn primary">Apply for Admission ↗</a>
+      <a href="#courses" class="btn outline">Explore Courses</a>
+    </div>
+
+    <div class="hero-note">
+      <span>✓</span> MPC & BiPC
+      <span>✓</span> JEE & NEET
+      <span>✓</span> EAPCET
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="campus.jpg" alt="Sri Chaitanya Campus">
+    <div class="image-caption">
+      <strong>Shape Your Tomorrow</strong>
+      <small>Learn • Grow • Succeed</small>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stat">
+    <h2 class="counter" data-target="25">0</h2>
+    <p>Years of Excellence*</p>
+  </div>
+  <div class="stat">
+    <h2 class="counter" data-target="100">0</h2>
+    <p>Expert Faculty*</p>
+  </div>
+  <div class="stat">
+    <h2 class="counter" data-target="5000">0</h2>
+    <p>Students*</p>
+  </div>
+  <div class="stat">
+    <h2 class="counter" data-target="50">0</h2>
+    <p>Achievements*</p>
+  </div>
+  <small class="stat-disclaimer">*Sample figures – replace with verified branch data.</small>
+</section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="about-image">
+    <img src="campus.jpg" alt="College campus">
+    <div class="experience-box">
+      <strong>Future</strong>
+      <span>Starts Here</span>
+    </div>
+  </div>
+
+  <div class="about-content">
+    <span class="section-label">ABOUT OUR INSTITUTION</span>
+    <h2>Education That Builds <span>Tomorrow's Leaders</span></h2>
+    <p>
+      Welcome to Sri Chaitanya Junior College.
+      We aim to provide quality education, academic guidance
+      and an environment that encourages students to achieve
+      their goals.
+    </p>
+
+    <div class="feature">
+      <span>✓</span>
+      <div>
+        <strong>Academic Excellence</strong>
+        <p>Structured learning and regular assessments.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <span>✓</span>
+      <div>
+        <strong>Experienced Faculty</strong>
+        <p>Guidance and support for every student.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <span>✓</span>
+      <div>
+        <strong>Student Development</strong>
+        <p>Academic and extracurricular activities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CAMPUS FACILITIES SECTION -->
+
+<section class="facilities-section" id="facilities">
+
+    <div class="facilities-heading">
+        <span>OUR CAMPUS EXPERIENCE</span>
+        <h2>Campus Facilities</h2>
+        <p>
+            Creating the right environment for learning,
+            growth and student development.
+        </p>
+    </div>
+
+    <div class="facilities-grid">
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="online exams.jpg"
+                     alt="Digital Classroom">
+                <span class="facility-number">01</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">💻</span>
+                <h3>Online Exams</h3>
+                <p>Technology-supported learning environment.</p>
+                <button onclick="openFacility('digital')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="event3.jpg"
+                     alt="Science Laboratory">
+                <span class="facility-number">02</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">🔬</span>
+                <h3>Science Laboratories</h3>
+                <p>Practical learning and subject demonstrations.</p>
+                <button onclick="openFacility('lab')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="study.jpg"
+                     alt="College Library">
+                <span class="facility-number">03</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">📚</span>
+                <h3>Daily Study Hours</h3>
+                <p>A space for reading, learning and preparation.</p>
+                <button onclick="openFacility('library')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="hostel.jpg"
+                     alt="Residential Hostel">
+                <span class="facility-number">04</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">🏠</span>
+                <h3>Residential Hostel</h3>
+                <p>Residential accommodation for students.</p>
+                <button onclick="openFacility('hostel')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="dining.jpg"
+                     alt="Dining Hall">
+                <span class="facility-number">05</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">🍽️</span>
+                <h3>Dining & Food</h3>
+                <p>Campus dining arrangements for students.</p>
+                <button onclick="openFacility('dining')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="sports.jpg"
+                     alt="Sports and Recreation">
+                <span class="facility-number">06</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">⚽</span>
+                <h3>Sports & Recreation</h3>
+                <p>Activities that encourage overall development.</p>
+                <button onclick="openFacility('sports')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="security.jpg"
+                     alt="Campus Security">
+                <span class="facility-number">07</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">🛡️</span>
+                <h3>CCTV Security</h3>
+                <p>Campus security and monitoring arrangements.</p>
+                <button onclick="openFacility('security')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+        <div class="facility-card">
+            <div class="facility-image">
+                <img src="doubt.jpg"
+                     alt="Doubt Clarification">
+                <span class="facility-number">08</span>
+            </div>
+            <div class="facility-content">
+                <span class="facility-icon">👨‍🏫</span>
+                <h3>Doubt Clarification</h3>
+                <p>Academic guidance and doubt-solving sessions.</p>
+                <button onclick="openFacility('doubts')">
+                    Explore Facility →
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- ADMISSION PROCESS -->
+<section class="section admission-process" id="admission-process">
+
+  <div class="section-heading">
+    <span class="section-label">JOIN OUR INSTITUTION</span>
+    <h2>Admission <span>Process</span></h2>
+    <p>Your journey towards a brighter future starts here.</p>
+  </div>
+
+  <div class="process-grid">
+
+    <!-- STEP 1 -->
+    <div class="process-card">
+      <div class="process-number">01</div>
+      <div class="process-icon">📞</div>
+      <h3>Admission Enquiry</h3>
+      <p>
+        Contact our admission team through WhatsApp
+        or submit the online enquiry form.
+      </p>
+      <span class="process-tag">GET INFORMATION</span>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="process-card">
+      <div class="process-number">02</div>
+      <div class="process-icon">🏫</div>
+      <h3>Campus Visit</h3>
+      <p>
+        Visit our campus, explore the facilities
+        and interact with our admission team.
+      </p>
+      <span class="process-tag">EXPLORE CAMPUS</span>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="process-card">
+      <div class="process-number">03</div>
+      <div class="process-icon">📝</div>
+      <h3>Admission Confirmation</h3>
+      <p>
+        Complete the required admission formalities
+        and confirm your admission.
+      </p>
+      <span class="process-tag">JOIN US</span>
+    </div>
+
+  </div>
+
+  <div class="process-cta">
+    <h3>Ready to Begin Your Journey?</h3>
+    <p>Our admission team is here to guide you.</p>
+    <a href="#admission" class="process-btn">
+      Enquire for Admission ↗
+    </a>
+  </div>
+
+</section>
+<!-- COURSES -->
+
+
+<section class="program-section" id="courses">
+
+  <div class="program-heading">
+    <span>OUR ACADEMIC PROGRAMS</span>
+    <h2>Choose Your <b>Learning Path</b></h2>
+    <p>Explore specialized programs designed for different academic goals.</p>
+  </div>
+
+  <div class="program-grid">
+
+    <div class="program-card" onclick="showProgram('npl')">
+      <div class="program-number">01</div>
+      <span class="program-label">ENGINEERING</span>
+      <h3>NPL</h3>
+      <p>NEON Premier League</p>
+      <div class="program-arrow">Explore Program ↗</div>
+    </div>
+
+    <div class="program-card" onclick="showProgram('elite')">
+      <div class="program-number">02</div>
+      <span class="program-label">SPECIAL PROGRAM</span>
+      <h3>ELITE</h3>
+      <p>Focused Academic Preparation</p>
+      <div class="program-arrow">Explore Program ↗</div>
+    </div>
+
+    <div class="program-card" onclick="showProgram('aims')">
+      <div class="program-number">03</div>
+      <span class="program-label">MEDICAL</span>
+      <h3>AIMS</h3>
+      <p>Medical Entrance Preparation</p>
+      <div class="program-arrow">Explore Program ↗</div>
+    </div>
+
+    <div class="program-card super-card" onclick="showProgram('super60')">
+      <div class="program-number">04</div>
+      <span class="program-label">PREMIUM PROGRAM</span>
+      <h3>AIMS SUPER 60</h3>
+      <p>Specialized Medical Preparation</p>
+      <div class="program-arrow">Explore Program ↗</div>
+    </div>
+
+  </div>
+
+
+  <!-- PROGRAM DETAILS -->
+
+  <div class="program-details" id="programDetails">
+
+    <div class="details-top">
+      <div>
+        <span class="details-label" id="detailLabel">PROGRAM DETAILS</span>
+        <h2 id="detailTitle">NPL Program</h2>
+        <p id="detailSubtitle">Program introduction</p>
+      </div>
+
+      <button class="close-details" onclick="closeProgram()">✕</button>
+    </div>
+
+    <div class="details-content">
+
+      <div class="details-description">
+        <h3>About This Program</h3>
+        <p id="detailDescription"></p>
+      </div>
+
+      <h3 class="features-heading">Program Highlights</h3>
+
+      <div class="features-grid" id="featuresGrid"></div>
+
+      <div class="program-target">
+        <div>
+          <span>LEARNING OBJECTIVE</span>
+          <h3 id="detailTarget"></h3>
+        </div>
+
+        <a href="#admission" class="btn primary">
+          Enquire About This Program ↗
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="loan-section" id="education-loan">
+
+    <div class="loan-container">
+
+        <div class="loan-content">
+
+            <span class="loan-tag">STUDENT FEE SUPPORT</span>
+
+            <h2>Education Loan Facility Available</h2>
+
+            <p>
+                Don't let financial concerns interrupt your
+                educational journey. Fee financing options
+                are available through our financing partner.
+            </p>
+
+            <div class="loan-company">
+                <h3>Financing Partner</h3>
+                <h2>GrayQuest</h2>
+                <p>Education Fee Financing</p>
+            </div>
+
+            <ul class="loan-points">
+                <li>✔ Education Fee Financing Enquiry</li>
+                <li>✔ Flexible Payment Options (subject to approval)</li>
+                <li>✔ Parent Assistance</li>
+                <li>✔ Simple Enquiry Process</li>
+            </ul>
+
+            <a href="https://grayquest.com/"
+               target="_blank"
+               class="loan-btn">
+                Explore GrayQuest →
+            </a>
+  <a href="#education-loan">Education Loan</a>
+        </div>
+
+        <div class="loan-visual">
+            <div class="loan-icon">🎓</div>
+            <h3>Invest in Your Future</h3>
+            <p>
+                Explore fee financing options
+                for your educational journey.
+            </p>
+            <span>Learn Today • Lead Tomorrow</span>
+        </div>
+
+    </div>
+
+    <p class="loan-disclaimer">
+        * Financing is subject to GrayQuest's eligibility,
+        approval, terms and conditions. Contact the college
+        admission office for assistance.
+    </p>
+
+</section>
+
+
+<section class="expense-section" id="fee-structure">
+
+    <div class="expense-heading">
+        <span>STUDENT EXPENSE PLANNER</span>
+        <h2>Complete Fee Structure</h2>
+        <p>Know your complete academic and campus expenses.</p>
+    </div>
+
+    <div class="expense-container">
+
+        <div class="expense-top">
+            <h3>Student Fee Calculator</h3>
+            <p>Enter the amount for each category</p>
+        </div>
+<div class="program-selector">
+    <label>Select Your Program</label>
+
+    <select id="feeProgram" onchange="loadProgramFees()">
+        <option value="">-- Select Program --</option>
+        <option value="npl">NPL</option>
+        <option value="nplsemiac">NPL Semi Ac</option>
+        <option value="CIPL">CIPL</option>
+        <option value="CIPL1">CIPL Semi Ac</option>
+        <option value="Others">Others</option>
+    </select>
+</div>
+    </select>
+</div>
+
+<div id="feeResult" style="display:none;">
+
+    <h3 id="selectedProgramTitle"></h3>
+
+    <div id="programFeeList"></div>
+
+    <div class="expense-total">
+        <p>Total Annual Expenses</p>
+        <h2 id="grandTotal">₹0</h2>
+    </div>
+
+</div>
+
+   
+</section>
+<!-- FEE STRUCTURE SECTION -->
+<section class="fee-section" id="fees">
+
+  <div class="fee-content">
+
+    <span class="section-label">2027 ACADEMIC YEAR</span>
+
+    <h2>Fee <span>Structure</span></h2>
+
+    <p>
+      Choose the right programme for your future.
+      Check the fee details and available concession
+      information before admission.
+    </p>
+
+    <div class="fee-highlights">
+
+      <div class="fee-item">
+        <span>₹</span>
+        <div>
+          <h3>Transparent Fees</h3>
+          <p>Clear fee details</p>
+        </div>
+      </div>
+
+      <div class="fee-item">
+        <span>✓</span>
+        <div>
+          <h3>Concession Details</h3>
+          <p>Check eligible concessions</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="fee-buttons">
+
+      <a href="2027_Fee_Structure_Parent_Friendly.pdf"
+         target="_blank"
+         class="fee-btn view-fee">
+        View Fee Structure ↗
+      </a>
+
+      <a href="2027_Fee_Structure_Parent_Friendly.pdf"
+         download
+         class="fee-btn download-fee">
+        Download PDF ↓
+      </a>
+
+    </div>
+
+    <small>
+      Note: Final fee and concession eligibility should be
+      confirmed with the college admission office.
+    </small>
+
+  </div>
+
+</section>
+
+
+<!-- ADMINISTRATOR -->
+<section class="section admin-section">
+  <div class="admin-card">
+    <div class="admin-photo">
+      <img src="me.jpg" alt="Administrator">
+    </div>
+
+    <div class="admin-info">
+      <span class="section-label">LEADERSHIP</span>
+      <h2>Meet Our <span>Administrator</span></h2>
+      <h3>PRAVEEN KUMAR</h3>
+      <p class="designation">ACCOUNTS</p>
+      <p>
+        Committed to supporting academic excellence,
+        student development and quality educational experiences.
+      </p>
+      <a href="#contact" class="btn primary">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section gallery-section" id="gallery">
+  <div class="section-heading">
+    <span class="section-label">CAMPUS LIFE</span>
+    <h2>Our Photo <span>Gallery</span></h2>
+    <p>Explore memorable moments from our institution.</p>
+  </div>
+
+  <div class="gallery-grid">
+    <img src="event.jpg" alt="Campus" class="gallery-img">
+    <img src="event1.jpg" alt="College event" class="gallery-img">
+    <img src="event2.jpg" alt="College activity" class="gallery-img">
+    <img src="event3.jpg" alt="Student event" class="gallery-img">
+  </div>
+</section>
+
+<!-- VIDEO GALLERY -->
+<section class="section video-section">
+
+  <div class="section-heading">
+    <span class="section-label">WATCH OUR JOURNEY</span>
+    <h2>Events & <span>Videos</span></h2>
+    <p>Experience our campus through videos.</p>
+  </div>
+
+  <div class="video-grid">
+
+    <div class="video-card">
+      <video controls poster="images/campus.jpg">
+        <source src="college.mp4" type="video/mp4">
+      </video>
+      <h3>College Introduction</h3>
+      <button class="watch-btn"
+        onclick="openFullScreenVideo('college.mp4')">
+        ▶ Watch Full Screen
+      </button>
+    </div>
+
+    <div class="video-card">
+      <video controls poster="images/event1.jpg">
+        <source src="freshers.mp4" type="video/mp4">
+      </video>
+      <h3>Freshers Day Celebrations</h3>
+      <button class="watch-btn"
+        onclick="openFullScreenVideo('freshers.mp4')">
+        ▶ Watch Full Screen
+      </button>
+    </div>
+
+    <div class="video-card">
+      <video controls poster="images/event2.jpg">
+        <source src="annualday.mp4" type="video/mp4">
+      </video>
+      <h3>Annual Day Celebrations</h3>
+      <button class="watch-btn"
+        onclick="openFullScreenVideo('annualday.mp4')">
+        ▶ Watch Full Screen
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- VIDEO FULL SCREEN PLAYER -->
+<div class="video-popup" id="videoPopup">
+
+  <button class="close-video"
+    onclick="closeFullScreenVideo()">✕</button>
+
+  <video id="popupVideo" controls playsinline></video>
+
+</div>
+<!-- FACILITY DETAILS POPUP -->
+
+<div class="facility-modal" id="facilityModal">
+
+    <div class="facility-modal-content">
+
+        <button class="facility-close"
+                onclick="closeFacility()">×</button>
+
+        <span id="modalIcon">🎓</span>
+
+        <h2 id="modalTitle">Facility Name</h2>
+
+        <p id="modalDescription"></p>
+
+        <button class="modal-enquiry"
+                onclick="facilityEnquiry()">
+            Enquire Now →
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ADMISSION FORM -->
+<section class="section admission-section" id="admission">
+  <div class="admission-text">
+    <span class="section-label">YOUR FUTURE STARTS HERE</span>
+    <h2>Start Your Admission <span>Journey Today!</span></h2>
+    <p>
+      Take the first step towards your dreams.
+      Fill in your details and our admission team will contact you.
+    </p>
+    <div class="admission-points">
+      <p>✓ Easy admission enquiry</p>
+      <p>✓ Course guidance</p>
+      <p>✓ Fee information</p>
+    </div>
+  </div>
+
+  <form id="admissionForm" class="admission-form">
+    <h2>Admission Enquiry</h2>
+
+    <label>Student Name</label>
+    <input type="text" id="studentName" placeholder="Enter student name" required>
+
+    <label>Parent / Guardian Name</label>
+    <input type="text" id="parentName" placeholder="Enter parent name" required>
+
+    <label>Mobile Number</label>
+    <input type="tel" id="mobile" placeholder="10-digit mobile number"
+      pattern="[6-9][0-9]{9}" maxlength="10" required>
+
+    <label>Course Interested In</label>
+    <select id="course" required>
+      <option value="">Select a course</option>
+      <option>MPC</option>
+      <option>BiPC</option>
+      <option>JEE</option>
+      <option>NEET</option>
+      <option>EAPCET</option>
+      <option>Foundation</option>
+    </select>
+
+    <label>Preferred Campus</label>
+    <input type="text" value="Sri Chaitanya - Branch" readonly>
+<div class="document-checklist">
+
+  <h3>Document Checklist</h3>
+  <p>Select the documents currently available:</p>
+
+  <label class="document-option">
+    <input type="checkbox" name="documents"
+      value="SSC Marks Memo">
+    SSC Marks Memo
+  </label>
+
+  <label class="document-option">
+    <input type="checkbox" name="documents"
+      value="Transfer Certificate (TC)">
+    Transfer Certificate (TC)
+  </label>
+
+  <label class="document-option">
+    <input type="checkbox" name="documents"
+      value="Aadhaar Card">
+    Aadhaar Card
+  </label>
+
+  <label class="document-option">
+    <input type="checkbox" name="documents"
+      value="Passport Size Photos">
+    Passport Size Photos
+  </label>
+
+  <label class="document-option">
+    <input type="checkbox" name="documents"
+      value="Caste Certificate">
+    Caste Certificate
+  </label>
+
+  <label class="document-option">
+    <input type="checkbox" name="documents"
+      value="Study Certificates">
+    Study Certificates
+  </label>
+
+</div>
+    <label>Message</label>
+    <textarea id="message" placeholder="Any additional information"></textarea>
+
+    <button type="submit" class="btn primary submit-btn">
+      Submit Admission Enquiry ↗
+    </button>
+    <small class="form-note">
+      Your enquiry will be prepared for WhatsApp submission.
+    </small>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+  <div class="section-heading">
+    <span class="section-label">GET IN TOUCH</span>
+    <h2>Contact <span>Our Campus</span></h2>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-card">
+      <span>📍</span>
+      <h3>Gandimisamma</h3>
+      <p>Charaka Bhavan</p>
+    </div>
+
+    <div class="contact-card">
+      <span>📞</span>
+      <h3>Call Us</h3>
+      <p>+91 6302173772</p>
+    </div>
+
+    <div class="contact-card">
+      <span>✉️</span>
+      <h3>Email</h3>
+      <p>praveenfx18@gmail.com</p>
+    </div>
+  </div>
+
+  <a href="https://www.google.com/maps/search/?api=1&query=Sri+Chaitanya+College"
+     target="_blank" class="btn primary map-btn">
+    Get Directions on Google Maps ↗
+  </a>
+</section>
+
+</main>
+<section class="callback-section" id="callback">
+  <div class="callback-container">
+
+    <div class="callback-info">
+      <span class="callback-tag">WE ARE HERE TO HELP</span>
+
+      <h2>Parent Enquiry & Callback</h2>
+
+      <p>
+        Have questions about admissions, courses or campus facilities?
+        Share your details. Our admission team can guide you.
+      </p>
+
+      <div class="callback-point">
+        <span>✓</span> Admission Guidance
+      </div>
+
+      <div class="callback-point">
+        <span>✓</span> Course Information
+      </div>
+
+      <div class="callback-point">
+        <span>✓</span> Fee & Hostel Details
+      </div>
+    </div>
+
+    <div class="callback-form">
+      <h3>Request a Callback</h3>
+      <p>Fill in the details below</p>
+
+      <form id="parentCallbackForm">
+
+        <label>Parent Name</label>
+        <input type="text" id="parentName"
+          placeholder="Enter parent name" required>
+
+        <label>Student Name</label>
+        <input type="text" id="studentName"
+          placeholder="Enter student name" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" id="parentMobile"
+          placeholder="Enter mobile number"
+          pattern="[0-9]{10}" maxlength="10" required>
+
+        <label>Interested Course</label>
+        <select id="callbackCourse" required>
+          <option value="">Select Course</option>
+          <option value="MPC">MPC</option>
+          <option value="BiPC">BiPC</option>
+          <option value="NPL">NPL</option>
+          <option value="ELITE">ELITE</option>
+          <option value="AIMS">AIMS</option>
+          <option value="AIMS SUPER 60">AIMS SUPER 60</option>
+        </select>
+
+        <label>Enquiry Message</label>
+        <textarea id="callbackMessage"
+          placeholder="Your enquiry (optional)"></textarea>
+
+        <button type="submit">
+          Request a Callback →
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+  <section class="announcements-section" id="announcements">
+
+  <div class="announcement-heading">
+    <span>STAY UPDATED</span>
+    <h2>Latest Announcements</h2>
+    <p>Stay informed with the latest college updates.</p>
+  </div>
+
+  <div class="announcement-grid">
+
+    <div class="announcement-card">
+      <div class="announcement-date">
+        <strong></strong>
+        <span>NOW</span>
+      </div>
+
+      <div class="announcement-content">
+        <span class="notice-tag admission">ADMISSIONS</span>
+        <h3>Admissions Open</h3>
+        <p>Admissions are open for the new academic session.</p>
+        <span class="notice-status">Latest Update</span>
+      </div>
+    </div>
+
+    <div class="announcement-card">
+      <div class="announcement-date">
+        <strong></strong>
+        <span></span>
+      </div>
+
+      <div class="announcement-content">
+        <span class="notice-tag exam">EXAM UPDATE</span>
+        <h3>Examination Schedule</h3>
+        <p>Students are requested to check the examination schedule.</p>
+        <span class="notice-status">Important</span>
+      </div>
+    </div>
+
+    <div class="announcement-card">
+      <div class="announcement-date">
+        <strong></strong>
+        <span></span>
+      </div>
+
+      <div class="announcement-content">
+        <span class="notice-tag event">CAMPUS NEWS</span>
+        <h3>Parent Meeting</h3>
+        <p>Parent meeting details will be announced by the college.</p>
+        <span class="notice-status">Notice</span>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-brand">
+    <div class="logo">SC</div>
+    <h2>SRI CHAITANYA</h2>
+    <p>Building Knowledge. Creating Futures.</p>
+  </div>
+
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#admission">Admissions</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <p class="copyright">
+    © 2027 Sri Chaitanya. All Rights Reserved.
+  </p>
+
+</footer>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/916302173772"
+   class="whatsapp" target="_blank" aria-label="WhatsApp">
+  WA
+</a>
+
+<!-- IMAGE POPUP -->
+<div class="lightbox" id="lightbox">
+  <button id="closeLightbox">✕</button>
+  <img id="lightboxImage" src="" alt="Gallery preview">
+</div>
+<!-- PDF Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+
+<!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
